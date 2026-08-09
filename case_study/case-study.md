@@ -137,3 +137,147 @@ The analysis should provide Veya's marketing team with a clear understanding of:
 - Potential improvements in marketing budget allocation
 
 The final findings will be presented through an interactive dashboard, visualizations, and a set of actionable marketing recommendations.
+
+---
+
+# 3. Characters & Teams
+
+## Key Stakeholders
+
+The Veya marketing analytics project involves several stakeholders who contribute to the marketing decision-making process.
+
+### Ayesha Khan — Marketing Manager
+
+**Role:** Marketing Manager
+
+Ayesha is responsible for Veya's overall marketing strategy and digital marketing budget.
+
+She requested the marketing analytics project to understand how effectively Veya's advertising budget is being used.
+
+Her main concerns include:
+
+- Campaign performance
+- Customer acquisition
+- Marketing ROI
+- Budget allocation
+- Conversion performance
+
+Ayesha will use the final findings and recommendations to make decisions about future marketing campaigns.
+
+---
+
+### Maham Mehboob — Junior Marketing Analyst
+
+**Role:** Junior Marketing Analyst
+
+I am responsible for conducting the marketing analytics project from beginning to end.
+
+My responsibilities include:
+
+- Understanding the business problem
+- Preparing the marketing dataset
+- Cleaning and validating the data
+- Performing exploratory analysis
+- Writing SQL queries
+- Calculating marketing KPIs
+- Analyzing campaign and channel performance
+- Creating visualizations
+- Developing the Power BI dashboard
+- Identifying actionable marketing insights
+- Presenting findings
+- Developing marketing recommendations
+
+My role is to translate marketing data into insights that can support better business decisions.
+
+---
+
+## Supporting Teams
+
+### Digital Marketing Team
+
+The Digital Marketing Team manages Veya's online marketing activities across different platforms.
+
+Their responsibilities include:
+
+- Campaign planning
+- Social media advertising
+- Search advertising
+- Content promotion
+- Audience targeting
+- Campaign optimization
+
+The team's campaign data provides important information for evaluating marketing performance.
+
+---
+
+### Performance Marketing Team
+
+The Performance Marketing Team focuses on paid advertising and campaign efficiency.
+
+They monitor:
+
+- Advertising spend
+- Clicks
+- Conversions
+- Cost per Acquisition (CPA)
+- Return on Advertising Spend (ROAS)
+- Campaign performance
+
+The analysis will help this team identify which campaigns should be optimized or receive additional investment.
+
+---
+
+### Creative & Social Media Team
+
+The Creative & Social Media Team develops Veya's social media content and advertising creatives.
+
+Their work includes:
+
+- Instagram content
+- Facebook content
+- TikTok content
+- Promotional campaigns
+- Ad creatives
+- Social media engagement
+
+Campaign performance insights can help the team understand which types of marketing activity are generating stronger customer responses.
+
+---
+
+### Management Team
+
+The management team is responsible for broader business and financial decisions.
+
+They are interested in understanding:
+
+- Overall marketing profitability
+- Revenue growth
+- Marketing efficiency
+- Return on advertising investment
+- Future marketing budget allocation
+
+The final recommendations from this project will provide management with evidence to support these decisions.
+
+---
+
+## Collaboration
+
+The project follows a collaborative decision-making process:
+
+**Marketing Manager**  
+↓  
+Defines the business problem and objectives
+
+**Junior Marketing Analyst**  
+↓  
+Analyzes data and develops insights
+
+**Digital & Performance Marketing Teams**  
+↓  
+Provide campaign context and implement optimization strategies
+
+**Management Team**  
+↓  
+Reviews findings and makes strategic decisions
+
+This collaboration ensures that the analysis is not limited to technical results but is translated into practical marketing actions.
