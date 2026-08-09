@@ -20,8 +20,7 @@ The analysis follows the stages:
 
 **Ask → Prepare → Process → Analyze → Share → Act → Wrap-Up**
 
-> **Note:** Veya is a fictional company, and the dataset used in this case study will be simulated for educational and portfolio purposes.
-
+>**Note:** Veya is a fictional company created for this educational portfolio project. The analysis uses a publicly available Tech Advertising Campaigns Dataset, which is adapted as the analytical dataset for the Veya case study.
 ---
 
 # 1. Introduction
@@ -34,14 +33,16 @@ For a growing e-commerce brand, simply spending money on advertising is not enou
 
 Veya is facing this challenge as it expands its digital presence in the Pakistani beauty and skincare market.
 
-The company currently uses several digital marketing channels, including:
+Veya currently uses several digital advertising platforms to reach potential customers, including:
 
-- Instagram
 - Facebook
 - Google Ads
+- Instagram
+- LinkedIn
 - TikTok
-- Email Marketing
+- Twitter
 
+These platforms are used to increase brand awareness, generate engagement, attract potential customers, and drive conversions.
 Although these channels generate traffic and customer interactions, Veya's marketing team wants to understand which campaigns are actually contributing to customer conversions and revenue.
 
 The company therefore decides to use marketing analytics to evaluate its digital marketing performance.
@@ -80,8 +81,9 @@ This question will guide the entire analysis.
 
 Veya is a growing Pakistani beauty and skincare e-commerce brand that is expanding its digital presence and investing more heavily in online marketing.
 
-The company currently promotes its products through several digital marketing channels, including Instagram, Facebook, Google Ads, TikTok, and Email Marketing. These channels are used to increase brand awareness, attract potential customers, encourage website visits, and generate online sales.
+The company currently promotes its products through several digital advertising platforms, including Facebook, Google Ads, Instagram, LinkedIn, TikTok, and Twitter.
 
+These platforms are used to increase brand awareness, attract potential customers, encourage engagement, and generate online conversions.
 As Veya's marketing investment increases, the marketing team wants to understand whether its advertising budget is being used effectively. Although the company collects campaign performance data, the data has not yet been analyzed in a structured way to support marketing decisions.
 
 The Marketing Manager wants to answer several important questions:
@@ -346,51 +348,33 @@ This makes digital marketing performance an important factor in Veya's overall b
 
 ## Digital Marketing Presence
 
-Veya uses several digital channels to reach potential customers:
-
-### Instagram
-
-Instagram is used for:
-
-- Product promotion
-- Reels
-- Educational content
-- Influencer collaborations
-- Product launches
-- Promotional campaigns
+Veya uses multiple digital advertising platforms to reach its target customers and promote its beauty and skincare products.
 
 ### Facebook
 
-Facebook is used for:
-
-- Paid advertising
-- Product promotions
-- Retargeting
-- Customer engagement
+Facebook is used for paid advertising, product promotion, audience targeting, and customer engagement.
 
 ### Google Ads
 
-Google Ads helps Veya reach consumers who are actively searching for beauty and skincare products.
+Google Ads helps Veya reach consumers who are actively searching for relevant beauty and skincare products.
+
+### Instagram
+
+Instagram is used for visual product promotion, social media advertising, product launches, and audience engagement.
+
+### LinkedIn
+
+LinkedIn provides an additional digital advertising platform through which Veya can reach specific professional and demographic audiences.
 
 ### TikTok
 
-TikTok is used to reach younger audiences through:
+TikTok allows Veya to reach younger audiences through short-form video advertising and creative content.
 
-- Short-form videos
-- Product demonstrations
-- User-generated content
-- Trends
-- Influencer campaigns
+### Twitter
 
-### Email Marketing
+Twitter provides another platform for digital advertising, audience reach, and campaign engagement.
 
-Email marketing is used for:
-
-- Promotional offers
-- Product announcements
-- Customer retention
-- Personalized communication
-- Repeat purchases
+The performance of these platforms will be compared throughout the analysis to identify which channels provide the strongest marketing results.
 
 ## Marketing Challenge
 
@@ -441,6 +425,7 @@ The analysis will therefore focus on answering specific business questions rathe
 
 ### 1. Channel Performance
 
+- Which of Facebook, Google Ads, Instagram, LinkedIn, TikTok, and Twitter provides the strongest overall marketing performance?
 - Which digital marketing channel generates the highest revenue?
 - Which channel generates the most conversions?
 - Which channel has the highest Return on Advertising Spend (ROAS)?
