@@ -548,3 +548,193 @@ By answering these questions, the analysis should help Veya:
 - Make more informed marketing decisions
 
 The answers developed during the analysis will form the foundation for Veya's final marketing recommendations.
+
+---
+
+# 6. PREPARE
+
+## Dataset Overview
+
+To answer the business questions defined in the ASK stage, a publicly available advertising campaign dataset was selected and adapted for this educational case study.
+
+The original dataset is the **Tech Advertising Campaigns Dataset**.
+
+For this project, the dataset will be used as the analytical foundation for the fictional Veya beauty and skincare e-commerce case study.
+
+### Dataset Specifications
+
+| Attribute | Details |
+|---|---|
+| Dataset Name | Tech Advertising Campaigns Dataset |
+| Records | 10,000 |
+| Features | 41 columns |
+| Missing Values | 0 |
+| Duplicate Rows | 0 |
+| Data Type | Digital advertising campaign data |
+| Case Study Company | Veya (fictional) |
+
+## Data Source & Transparency
+
+The dataset is publicly available and was originally created for advertising campaign analysis.
+
+For this portfolio project, the dataset is adapted to represent Veya's digital marketing environment.
+
+Veya is a fictional company. The analysis therefore does not represent real Veya customer or company data.
+
+No confidential or personally identifiable customer information is claimed to be part of this case study.
+
+## Data Categories
+
+The 41 available fields provide information across several areas of digital marketing.
+
+### Campaign Information
+
+Campaign-level information allows performance to be compared across different marketing activities.
+
+Examples include:
+
+- Campaign ID
+- Campaign Name
+- Campaign Objective
+- Platform
+- Ad Placement
+- Creative Format
+
+### Audience Information
+
+Audience-related variables allow the analysis to explore how different target groups respond to marketing campaigns.
+
+Examples include:
+
+- Target Audience
+- Age-related attributes
+- Gender
+- Income Bracket
+- Purchase Intent
+- Retargeting
+
+### Advertising Performance
+
+The dataset contains core advertising performance metrics including:
+
+- Impressions
+- Clicks
+- Conversions
+- Advertising Spend
+- Revenue
+- Profit
+
+### Marketing Efficiency Metrics
+
+The dataset also contains performance indicators such as:
+
+- CTR
+- CPC
+- CPA
+- ROAS
+
+These metrics will be validated and used throughout the analysis.
+
+### Time-Based Variables
+
+The dataset contains temporal information that can be used to identify performance patterns over time, including:
+
+- Start Date
+- Quarter
+- Day of Week
+- Hour of Day
+
+## Data Quality Assessment
+
+Before beginning the analysis, the dataset was reviewed for basic data-quality issues.
+
+### Missing Values
+
+No missing values were identified across the 41 columns.
+
+**Result:** 0 null values.
+
+### Duplicate Records
+
+The dataset was checked for duplicate rows.
+
+**Result:** 0 duplicate rows.
+
+### Identifier
+
+`campaign_id` functions as a record identifier rather than a business-performance measure.
+
+It will therefore not be used as a KPI in the analysis.
+
+## Data Preparation Approach
+
+The dataset will be prepared through the following process:
+
+1. Preserve the original dataset as the raw data.
+2. Inspect all 41 columns and their data types.
+3. Validate numerical marketing metrics.
+4. Check categorical values for consistency.
+5. Validate date and time fields.
+6. Check the relationship between impressions, clicks, and conversions.
+7. Review advertising spend, revenue, and profit values.
+8. Validate calculated marketing metrics such as CTR, CPC, CPA, and ROAS.
+9. Remove fields that are unnecessary or redundant for the analysis.
+10. Create a cleaned dataset for subsequent analysis.
+
+## Marketing KPI Framework
+
+The analysis will focus on the following key marketing metrics:
+
+### Click-Through Rate (CTR)
+
+**CTR = Clicks ÷ Impressions × 100**
+
+Measures how effectively campaigns generate clicks from impressions.
+
+### Cost per Click (CPC)
+
+**CPC = Advertising Spend ÷ Clicks**
+
+Measures the average cost of generating a click.
+
+### Conversion Rate
+
+**Conversion Rate = Conversions ÷ Clicks × 100**
+
+Measures how effectively campaign traffic converts.
+
+### Cost per Acquisition (CPA)
+
+**CPA = Advertising Spend ÷ Conversions**
+
+Measures the average advertising cost associated with each conversion.
+
+### Return on Advertising Spend (ROAS)
+
+**ROAS = Revenue ÷ Advertising Spend**
+
+Measures the revenue generated for every unit of advertising spend.
+
+### Profit
+
+**Profit = Revenue − Advertising Spend**
+
+Measures the amount remaining after advertising expenditure.
+
+## Tools for the Analysis
+
+The prepared dataset will be analyzed using:
+
+- **Excel** — Initial exploration, validation, pivot tables, and calculations
+- **SQL** — Structured querying, aggregation, segmentation, and KPI analysis
+- **Python** — Exploratory data analysis and visualizations
+- **Power BI** — Interactive dashboard and business reporting
+- **GitHub** — Documentation and portfolio presentation
+
+## Preparation Outcome
+
+At the end of the PREPARE stage, the dataset will be ready for structured analysis.
+
+The next stage will focus on transforming and analyzing the data to answer the business questions defined in the ASK stage.
+
+**Next: PROCESS → ANALYZE → SHARE → ACT**
