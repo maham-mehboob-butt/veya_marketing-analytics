@@ -629,97 +629,200 @@ The dataset contains temporal information that can be used to identify performan
 - Day of Week
 - Hour of Day
 
-## Data Quality Assessment
+## Dataset Structure
 
-Before beginning the analysis, the dataset was reviewed for basic data-quality issues.
+The dataset contains 41 variables covering campaign characteristics, audience targeting, advertising delivery, engagement, conversion, financial performance, and temporal information.
+
+### Campaign & Advertising Variables
+
+- `campaign_id` — Unique campaign identifier
+- `campaign_objective` — Campaign goal
+- `platform` — Advertising platform
+- `ad_placement` — Advertising placement
+- `device_type` — Target device
+- `operating_system` — Operating system
+- `creative_format` — Advertisement format
+- `creative_size` — Advertisement dimensions
+- `ad_copy_length` — Length category of the advertisement copy
+- `has_call_to_action` — Whether a CTA is included
+- `creative_emotion` — Emotional tone of the creative
+- `creative_age_days` — Age of the creative asset
+
+### Audience Variables
+
+- `target_audience_age`
+- `target_audience_gender`
+- `audience_interest_category`
+- `income_bracket`
+- `purchase_intent_score`
+- `retargeting_flag`
+
+These variables will allow the analysis to compare campaign performance across different audience targeting strategies.
+
+### Temporal Variables
+
+- `start_date`
+- `quarter`
+- `day_of_week`
+- `hour_of_day`
+- `campaign_day`
+
+These variables will be used to investigate temporal patterns in campaign performance.
+
+### Engagement & Delivery Variables
+
+- `impressions`
+- `clicks`
+- `bounce_rate`
+- `avg_session_duration_seconds`
+- `pages_per_session`
+- `quality_score`
+
+These measures will help evaluate how audiences interact with advertising campaigns and landing pages.
+
+### Financial & Conversion Variables
+
+- `conversions`
+- `ad_spend`
+- `revenue`
+- `profit`
+
+These variables provide the foundation for evaluating campaign efficiency and financial performance.
+
+### Marketing KPI Variables
+
+- `CTR`
+- `CPC`
+- `conversion_rate`
+- `CPA`
+- `ROAS`
+
+These KPIs will be reviewed and validated against their underlying metrics where appropriate.
+
+## Initial Data Quality Findings
+
+The initial dataset inspection identified the following:
 
 ### Missing Values
 
-No missing values were identified across the 41 columns.
-
-**Result:** 0 null values.
+**Result: 0 missing values across all 41 columns.**
 
 ### Duplicate Records
 
-The dataset was checked for duplicate rows.
+**Result: 0 duplicate rows identified.**
 
-**Result:** 0 duplicate rows.
+### Redundant Metric
 
-### Identifier
+The dataset contains both `actual_cpc` and `CPC`.
 
-`campaign_id` functions as a record identifier rather than a business-performance measure.
+According to the dataset documentation, these two variables contain identical values.
 
-It will therefore not be used as a KPI in the analysis.
+This redundancy will be investigated during the PROCESS stage before deciding whether one should be removed from the analytical dataset.
 
-## Data Preparation Approach
+### Derived Metrics
 
-The dataset will be prepared through the following process:
+Several variables are derived from other campaign metrics.
 
-1. Preserve the original dataset as the raw data.
-2. Inspect all 41 columns and their data types.
-3. Validate numerical marketing metrics.
-4. Check categorical values for consistency.
-5. Validate date and time fields.
-6. Check the relationship between impressions, clicks, and conversions.
-7. Review advertising spend, revenue, and profit values.
-8. Validate calculated marketing metrics such as CTR, CPC, CPA, and ROAS.
-9. Remove fields that are unnecessary or redundant for the analysis.
-10. Create a cleaned dataset for subsequent analysis.
+For example:
 
-## Marketing KPI Framework
+**ROAS = Revenue ÷ Ad Spend**
 
-The analysis will focus on the following key marketing metrics:
-
-### Click-Through Rate (CTR)
+**Profit = Revenue − Ad Spend**
 
 **CTR = Clicks ÷ Impressions × 100**
 
-Measures how effectively campaigns generate clicks from impressions.
-
-### Cost per Click (CPC)
-
-**CPC = Advertising Spend ÷ Clicks**
-
-Measures the average cost of generating a click.
-
-### Conversion Rate
-
 **Conversion Rate = Conversions ÷ Clicks × 100**
 
-Measures how effectively campaign traffic converts.
+**CPA = Ad Spend ÷ Conversions**
 
-### Cost per Acquisition (CPA)
+These relationships will be validated during the PROCESS stage.
 
-**CPA = Advertising Spend ÷ Conversions**
+## Analytical Feature Selection
 
-Measures the average advertising cost associated with each conversion.
+Not every available field will necessarily be used in every analysis.
 
-### Return on Advertising Spend (ROAS)
+The project will select variables according to the business questions defined in the ASK stage.
 
-**ROAS = Revenue ÷ Advertising Spend**
+### Core Performance Metrics
 
-Measures the revenue generated for every unit of advertising spend.
+The primary performance measures will include:
 
-### Profit
+- Impressions
+- Clicks
+- Conversions
+- Ad Spend
+- Revenue
+- Profit
+- CTR
+- Conversion Rate
+- CPA
+- ROAS
 
-**Profit = Revenue − Advertising Spend**
+### Campaign & Creative Dimensions
 
-Measures the amount remaining after advertising expenditure.
+The analysis will investigate:
 
-## Tools for the Analysis
+- Campaign Objective
+- Platform
+- Ad Placement
+- Creative Format
+- Creative Size
+- Ad Copy Length
+- Call-to-Action
+- Creative Emotion
+- Creative Age
 
-The prepared dataset will be analyzed using:
+### Audience Dimensions
 
-- **Excel** — Initial exploration, validation, pivot tables, and calculations
-- **SQL** — Structured querying, aggregation, segmentation, and KPI analysis
-- **Python** — Exploratory data analysis and visualizations
-- **Power BI** — Interactive dashboard and business reporting
-- **GitHub** — Documentation and portfolio presentation
+The analysis will investigate:
 
-## Preparation Outcome
+- Target Audience Age
+- Target Audience Gender
+- Audience Interest Category
+- Income Bracket
+- Purchase Intent
+- Retargeting
 
-At the end of the PREPARE stage, the dataset will be ready for structured analysis.
+### Delivery & Engagement Dimensions
 
-The next stage will focus on transforming and analyzing the data to answer the business questions defined in the ASK stage.
+The analysis will investigate:
 
-**Next: PROCESS → ANALYZE → SHARE → ACT**
+- Device Type
+- Operating System
+- Quality Score
+- Bounce Rate
+- Average Session Duration
+- Pages per Session
+
+### Time Dimensions
+
+The analysis will investigate:
+
+- Quarter
+- Day of Week
+- Hour of Day
+- Campaign Day
+
+## Data Preparation Principles
+
+The dataset will be prepared according to the following principles:
+
+1. Preserve the original raw dataset.
+2. Do not modify the raw source file.
+3. Validate data types and values.
+4. Check for missing and duplicate records.
+5. Validate relationships between core marketing metrics.
+6. Identify redundant variables.
+7. Create a separate processed dataset for analysis.
+8. Retain variables that support the business questions.
+9. Document all transformations.
+10. Ensure that analytical conclusions are based on the actual dataset.
+
+## Transparency Note
+
+The Tech Advertising Campaigns Dataset is being used as the underlying data source for this educational case study.
+
+Veya is a fictional company created to provide a realistic business context for the analysis.
+
+The project will not present the original dataset as real Veya company data.
+
