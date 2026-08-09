@@ -418,3 +418,133 @@ Marketing analytics can help Veya understand:
 The findings from this case study will help Veya develop a more effective and measurable digital marketing strategy.
 
 > **Note:** Veya, its company history, products, business operations, and marketing data are fictional and have been created specifically for this educational portfolio project.
+
+---
+
+# 5. ASK
+
+## Understanding the Business Problem
+
+Before analyzing the data, it is important to clearly understand what Veya's marketing team needs to know.
+
+Veya is investing in multiple digital marketing channels, but campaign performance is not consistent across all channels and campaigns.
+
+The Marketing Manager wants to use data to understand where the company's marketing investment is producing the strongest results and where improvements may be required.
+
+The analysis will therefore focus on answering specific business questions rather than simply producing charts and calculations.
+
+## Primary Business Question
+
+> **How can Veya use digital marketing data to improve campaign performance, increase customer conversions, and allocate its marketing budget more effectively?**
+
+## Key Business Questions
+
+### 1. Channel Performance
+
+- Which digital marketing channel generates the highest revenue?
+- Which channel generates the most conversions?
+- Which channel has the highest Return on Advertising Spend (ROAS)?
+- Which channel has the lowest Cost per Acquisition (CPA)?
+- Which channel has the highest Click-Through Rate (CTR)?
+- Which channel has the highest conversion rate?
+
+### 2. Campaign Performance
+
+- Which campaigns generate the highest revenue?
+- Which campaigns generate the most conversions?
+- Which campaigns have the strongest ROAS?
+- Which campaigns have the lowest CPA?
+- Which campaigns have high advertising spend but relatively poor results?
+- Which campaigns should be considered for optimization?
+
+### 3. Marketing Funnel
+
+Veya wants to understand how effectively potential customers move through the marketing funnel:
+
+**Impressions → Clicks → Conversions → Revenue**
+
+The analysis will investigate:
+
+- How many users see Veya's advertisements?
+- How many users click on the advertisements?
+- How many users convert?
+- Where does the largest drop-off occur?
+- Which channels have the strongest conversion performance?
+
+### 4. Audience Performance
+
+The marketing team also wants to understand whether different customer groups respond differently to Veya's campaigns.
+
+The analysis will investigate:
+
+- Which audience segments generate the most conversions?
+- Which audience segments generate the highest revenue?
+- Which audience segments provide the strongest ROAS?
+- Are certain audiences more responsive to particular channels?
+
+### 5. Device Performance
+
+Veya's customers may interact with campaigns through different devices.
+
+The analysis will compare:
+
+- Mobile performance
+- Desktop performance
+- Tablet performance
+
+The goal is to identify whether device behavior affects clicks, conversions, revenue, or marketing efficiency.
+
+### 6. Time-Based Performance
+
+The analysis will also investigate how marketing performance changes over time.
+
+Key questions include:
+
+- Which months generate the highest revenue?
+- Which months generate the most conversions?
+- How does advertising spending change over time?
+- Does revenue increase at the same rate as advertising spend?
+- Are there periods where marketing efficiency improves or declines?
+
+## Marketing KPIs
+
+To answer these questions, the following key performance indicators will be calculated:
+
+### Click-Through Rate (CTR)
+
+**CTR = Clicks ÷ Impressions × 100**
+
+CTR measures how effectively advertisements attract user attention and generate clicks.
+
+### Conversion Rate
+
+**Conversion Rate = Conversions ÷ Clicks × 100**
+
+Conversion rate measures how effectively clicks result in conversions.
+
+### Cost per Acquisition (CPA)
+
+**CPA = Advertising Spend ÷ Conversions**
+
+CPA measures the average cost of acquiring a customer or conversion.
+
+### Return on Advertising Spend (ROAS)
+
+**ROAS = Revenue ÷ Advertising Spend**
+
+ROAS measures the revenue generated for every unit of advertising expenditure.
+
+## Expected Business Outcome
+
+By answering these questions, the analysis should help Veya:
+
+- Identify high-performing marketing channels
+- Identify high-performing campaigns
+- Detect underperforming campaigns
+- Understand customer conversion behavior
+- Evaluate marketing efficiency
+- Improve budget allocation
+- Optimize future campaigns
+- Make more informed marketing decisions
+
+The answers developed during the analysis will form the foundation for Veya's final marketing recommendations.
