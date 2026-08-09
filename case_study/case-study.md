@@ -281,3 +281,140 @@ Provide campaign context and implement optimization strategies
 Reviews findings and makes strategic decisions
 
 This collaboration ensures that the analysis is not limited to technical results but is translated into practical marketing actions.
+---
+
+# 4. About the Company
+
+## Company Overview
+
+Veya is a fictional Pakistani beauty and skincare e-commerce brand created for this marketing analytics case study.
+
+The company operates as a digital-first, direct-to-consumer (D2C) business, selling beauty and skincare products through its online store and digital marketing channels.
+
+Veya was established in 2022 with the goal of making quality beauty and skincare products more accessible to young consumers in Pakistan.
+
+From the beginning, the company focused on building its brand through digital platforms rather than relying heavily on traditional retail.
+
+## Veya's Mission
+
+Veya's mission is to provide accessible beauty and skincare products while creating a convenient and engaging online shopping experience for Pakistani consumers.
+
+The company aims to build a trusted beauty brand by combining quality products, digital customer engagement, and personalized marketing.
+
+## Veya's Vision
+
+> **To become a trusted and digitally driven beauty and skincare brand for the next generation of Pakistani consumers.**
+
+## Products
+
+Veya offers a range of beauty and skincare products, including:
+
+- Facial cleansers
+- Moisturizers
+- Serums
+- Sunscreens
+- Face masks
+- Lip care products
+- Body care products
+- Beauty accessories
+
+The product portfolio is designed primarily for young consumers who discover and purchase beauty products through digital channels.
+
+## Target Market
+
+Veya primarily targets young consumers in Pakistan, particularly:
+
+- University students
+- Young professionals
+- Gen Z consumers
+- Young millennials
+- Digital-first shoppers
+
+The target customers are active on social media and frequently use digital platforms to discover products, compare alternatives, read reviews, and make purchasing decisions.
+
+## Business Model
+
+Veya follows a **Direct-to-Consumer (D2C)** business model.
+
+Customers discover Veya through digital marketing channels and can purchase products through the company's online store.
+
+The customer journey can be represented as:
+
+**Digital Advertisement → Website Visit → Product Exploration → Purchase → Customer Relationship**
+
+This makes digital marketing performance an important factor in Veya's overall business growth.
+
+## Digital Marketing Presence
+
+Veya uses several digital channels to reach potential customers:
+
+### Instagram
+
+Instagram is used for:
+
+- Product promotion
+- Reels
+- Educational content
+- Influencer collaborations
+- Product launches
+- Promotional campaigns
+
+### Facebook
+
+Facebook is used for:
+
+- Paid advertising
+- Product promotions
+- Retargeting
+- Customer engagement
+
+### Google Ads
+
+Google Ads helps Veya reach consumers who are actively searching for beauty and skincare products.
+
+### TikTok
+
+TikTok is used to reach younger audiences through:
+
+- Short-form videos
+- Product demonstrations
+- User-generated content
+- Trends
+- Influencer campaigns
+
+### Email Marketing
+
+Email marketing is used for:
+
+- Promotional offers
+- Product announcements
+- Customer retention
+- Personalized communication
+- Repeat purchases
+
+## Marketing Challenge
+
+As Veya has expanded its digital marketing activities, the company has increased its investment across multiple channels.
+
+However, the marketing team has noticed that campaign performance varies significantly.
+
+Some campaigns may generate a large number of impressions and clicks but relatively few conversions, while other campaigns may generate fewer interactions but produce stronger revenue and return on investment.
+
+The company therefore needs a more structured approach to understanding its marketing performance.
+
+## Why Marketing Analytics Matters to Veya
+
+Veya wants to move from making marketing decisions based primarily on basic performance metrics to making decisions based on data-driven insights.
+
+Marketing analytics can help Veya understand:
+
+- Which channels attract the most valuable customers
+- Which campaigns generate the strongest returns
+- Where customers drop out of the conversion funnel
+- How efficiently the marketing budget is being used
+- Which audiences respond most effectively
+- Where marketing investment should be increased or reduced
+
+The findings from this case study will help Veya develop a more effective and measurable digital marketing strategy.
+
+> **Note:** Veya, its company history, products, business operations, and marketing data are fictional and have been created specifically for this educational portfolio project.
