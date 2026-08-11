@@ -925,3 +925,667 @@ The raw dataset was preserved without modification, while the processed version 
 
 The dataset is now ready for the **ANALYZE** stage, where campaign, channel, audience, device, and time-based performance will be investigated using marketing KPIs and comparative analysis.
 
+## 8. ANALYZE
+
+### Analytical Approach
+
+The processed dataset was analyzed to evaluate digital marketing performance across channels, campaigns, audiences, devices, creative characteristics, and time periods.
+
+The analysis focused on key marketing KPIs including CTR, Conversion Rate, CPA, ROAS, revenue, conversions, advertising spend, and profit.
+
+### 8.1 Overall Marketing Performance
+
+The dataset contains 10,000 advertising campaign records.
+
+Overall performance:
+
+- Total Advertising Spend: $43.46 million
+- Total Impressions: 705.39 million
+- Total Clicks: 15.26 million
+- Total Conversions: 655,688
+- Total Revenue: $284.16 million
+- Total Profit: $240.70 million
+- Overall CTR: 2.16%
+- Overall Conversion Rate: 4.30%
+- Overall CPA: $66.27
+- Overall ROAS: 6.54
+
+The overall ROAS of 6.54 indicates that the campaigns generated approximately $6.54 in revenue for every $1 spent on advertising.
+
+### 8.2 Channel Performance
+
+The six advertising platforms were compared using revenue, conversions, CTR, conversion rate, CPA, and ROAS.
+
+| Platform | Revenue | Conversions | CTR | Conv. Rate | CPA | ROAS |
+|---|---:|---:|---:|---:|---:|---:|
+| Google Ads | $97.85M | 222,946 | 1.94% | 4.99% | $80.77 | 5.43 |
+| Facebook | $70.79M | 165,733 | 2.36% | 4.26% | $41.12 | 10.39 |
+| TikTok | $34.35M | 81,687 | 2.37% | 3.44% | $37.60 | 11.18 |
+| LinkedIn | $33.32M | 76,887 | 1.93% | 4.99% | $131.11 | 3.30 |
+| Instagram | $27.04M | 57,704 | 2.16% | 4.15% | $51.42 | 9.11 |
+| Twitter | $20.82M | 50,731 | 2.42% | 3.16% | $49.56 | 8.28 |
+
+### Channel Insights
+
+Google Ads generated the highest total revenue and conversions. However, it also consumed the largest share of advertising spend.
+
+TikTok achieved the highest ROAS at 11.18 and the lowest CPA at $37.60, making it the most efficient platform based on return and acquisition cost.
+
+Facebook also performed strongly, generating $70.79 million in revenue with a ROAS of 10.39.
+
+LinkedIn had the weakest ROAS at 3.30 and the highest CPA at $131.11, suggesting that its campaigns should be reviewed for efficiency.
+
+### 8.3 Campaign Performance
+
+Individual campaigns were evaluated using revenue, conversions, advertising spend, profit, CPA, and ROAS.
+
+The highest-revenue campaigns included:
+
+| Campaign | Revenue | Conversions | ROAS |
+|---|---:|---:|---:|
+| CAMP_00591 | $2.80M | 4,474 | 56.01 |
+| CAMP_03998 | $2.23M | 3,898 | 59.00 |
+| CAMP_08879 | $2.09M | 1,368 | 41.80 |
+| CAMP_05004 | $1.99M | 5,077 | 41.18 |
+| CAMP_07529 | $1.82M | 2,100 | 38.36 |
+
+Some campaigns demonstrated exceptionally high ROAS despite relatively low advertising spend. For example, CAMP_01627 generated a ROAS of 487.30, although its advertising spend was only $189.60.
+
+Because extremely high ROAS values can occur on campaigns with very small budgets, campaign efficiency should be considered together with revenue scale and conversion volume.
+
+### Underperforming Campaigns
+
+Several high-spend campaigns generated relatively weak returns.
+
+Examples include:
+
+- CAMP_04418 — ROAS 0.63
+- CAMP_02507 — ROAS 0.68
+- CAMP_03082 — ROAS 0.92
+- CAMP_08080 — ROAS 1.10
+- CAMP_08231 — ROAS 3.05
+
+These campaigns should be investigated before additional budget is allocated to them.
+
+### 8.4 Marketing Funnel Analysis
+
+The marketing funnel was evaluated as:
+
+Impressions → Clicks → Conversions → Revenue
+
+Overall:
+
+- Impressions: 705.39 million
+- Clicks: 15.26 million
+- CTR: 2.16%
+- Conversions: 655,688
+- Conversion Rate: 4.30%
+- Revenue: $284.16 million
+
+The analysis shows that the largest volume reduction occurs between impressions and clicks, which is expected in digital advertising.
+
+Channel-level funnel performance varies considerably. TikTok achieved a strong CTR of 2.37%, while Twitter achieved the highest CTR at 2.42%.
+
+Google Ads and LinkedIn both achieved a 4.99% conversion rate, the highest among the six platforms.
+
+### 8.5 Audience Performance
+
+Audience segments were compared using conversion, revenue, CPA, and ROAS.
+
+Purchase intent produced one of the clearest differences.
+
+| Purchase Intent | Revenue | Conversions | ROAS |
+|---|---:|---:|---:|
+| High | $128.88M | 300,612 | 12.15 |
+| Medium | $111.14M | 254,727 | 5.64 |
+| Low | $44.14M | 100,349 | 3.36 |
+
+High-intent audiences generated the strongest return, with a ROAS of 12.15.
+
+Retargeting campaigns also performed strongly, achieving a ROAS of 9.50 compared with 5.56 for non-retargeting campaigns.
+
+### 8.6 Device Performance
+
+Desktop produced the strongest overall performance.
+
+| Device | Revenue | Conversions | CTR | CPA | ROAS |
+|---|---:|---:|---:|---:|---:|
+| Desktop | $176.99M | 399,599 | 2.50% | $42.60 | 10.40 |
+| Mobile | $86.86M | 203,603 | 2.01% | $110.60 | 3.86 |
+| Tablet | $20.31M | 52,486 | 1.90% | $74.57 | 5.19 |
+
+Desktop generated the highest revenue, highest CTR, lowest CPA, and highest ROAS.
+
+Mobile generated substantial volume but had a significantly higher CPA and lower ROAS, indicating an opportunity to investigate mobile campaign and landing-page performance.
+
+### 8.7 Creative & Campaign Characteristics
+
+Creative formats were compared to identify patterns in campaign performance.
+
+Video advertising generated:
+
+- $119.90 million revenue
+- 284,457 conversions
+- 2.86% CTR
+- 7.27 ROAS
+
+Video had the highest CTR among the creative formats analyzed.
+
+Campaign objectives also showed differences in efficiency.
+
+Conversion campaigns achieved a ROAS of 8.01, while Brand Awareness campaigns achieved a ROAS of 4.05.
+
+This suggests that campaigns designed around direct conversion objectives were more efficient in generating measurable revenue within this dataset.
+
+### 8.8 Time-Based Performance
+
+Marketing performance varied considerably by month and quarter.
+
+The strongest month by revenue was December 2024:
+
+- Revenue: $21.10 million
+- Conversions: 53,005
+- ROAS: 7.94
+
+December 2025 also performed strongly:
+
+- Revenue: $16.54 million
+- Conversions: 42,411
+- ROAS: 9.05
+
+Quarter 4 was the strongest quarter overall:
+
+- Revenue: $97.35 million
+- Conversions: 247,440
+- ROAS: 8.29
+
+Quarter 3 was comparatively weaker, with a ROAS of 5.49.
+
+Day-of-week analysis showed Friday as the strongest day by ROAS at 7.54, followed by Thursday at 7.36.
+
+### 8.9 Marketing Efficiency
+
+The analysis indicates substantial differences in marketing efficiency across platforms and campaign characteristics.
+
+The strongest efficiency patterns were observed in:
+
+- TikTok — highest platform ROAS of 11.18
+- Facebook — ROAS of 10.39
+- High purchase-intent audiences — ROAS of 12.15
+- Retargeting campaigns — ROAS of 9.50
+- Desktop campaigns — ROAS of 10.40
+- Video creatives — ROAS of 7.27
+- Conversion-focused campaigns — ROAS of 8.01
+
+Lower efficiency was observed in:
+
+- LinkedIn — ROAS of 3.30
+- Low purchase-intent audiences — ROAS of 3.36
+- Mobile campaigns — ROAS of 3.86
+- Brand Awareness campaigns — ROAS of 4.05
+
+### 8.10 Key Analytical Insights
+
+The analysis produced several important findings:
+
+1. Google Ads generated the greatest revenue and conversion volume, but its efficiency was lower than Facebook and TikTok.
+
+2. TikTok produced the highest platform ROAS and lowest CPA, indicating strong advertising efficiency.
+
+3. Facebook combined high revenue with strong ROAS, making it another important channel for investment.
+
+4. LinkedIn had the weakest platform efficiency and highest CPA, suggesting a need for campaign optimization.
+
+5. High purchase-intent audiences generated substantially stronger ROAS than medium- and low-intent audiences.
+
+6. Retargeting campaigns generated stronger ROAS than non-retargeting campaigns.
+
+7. Desktop users generated substantially stronger marketing returns than mobile and tablet users.
+
+8. Video creatives produced the highest CTR among the analyzed creative formats.
+
+9. Conversion-focused campaigns were more efficient than Brand Awareness campaigns in generating measurable returns.
+
+10. Quarter 4 produced the strongest overall marketing performance, suggesting that seasonal timing may influence campaign results.
+
+
+## 9. SHARE
+
+### Communicating the Findings
+
+The findings from the marketing analysis will be communicated through an interactive Power BI dashboard and supporting visualizations.
+
+The objective of the dashboard is to present complex marketing data in a simple and decision-oriented format so that Veya's marketing and management teams can quickly understand campaign performance and identify areas for improvement.
+
+### Dashboard Objectives
+
+The dashboard will help stakeholders:
+
+- Monitor overall marketing performance
+- Compare advertising platforms
+- Evaluate campaign performance
+- Understand the marketing funnel
+- Identify high-value audiences
+- Compare device performance
+- Evaluate marketing efficiency
+- Monitor revenue and profit
+- Identify opportunities for budget optimization
+
+### Key Dashboard KPIs
+
+The main KPI cards will display:
+
+- Total Advertising Spend
+- Total Revenue
+- Total Conversions
+- Total Profit
+- Overall CTR
+- Overall Conversion Rate
+- CPA
+- ROAS
+
+### Dashboard Sections
+
+#### 1. Executive Performance Overview
+
+This section will provide a high-level view of Veya's marketing performance.
+
+Visuals will include:
+
+- Revenue
+- Advertising Spend
+- Profit
+- Conversions
+- ROAS
+- Monthly revenue trend
+- Monthly advertising spend trend
+
+#### 2. Channel Performance
+
+A platform comparison will be used to evaluate:
+
+- Revenue by platform
+- Conversions by platform
+- Advertising spend by platform
+- ROAS by platform
+- CPA by platform
+- CTR by platform
+
+The dashboard will allow stakeholders to identify strong and weak marketing channels.
+
+#### 3. Campaign Performance
+
+Campaign-level analysis will highlight:
+
+- Top-performing campaigns
+- Highest-revenue campaigns
+- Highest-ROAS campaigns
+- High-spend campaigns with weak returns
+- Campaigns requiring optimization
+
+#### 4. Marketing Funnel
+
+A funnel visualization will represent:
+
+Impressions → Clicks → Conversions → Revenue
+
+This will help stakeholders understand customer movement through the advertising funnel and identify potential performance gaps.
+
+#### 5. Audience & Device Analysis
+
+The dashboard will compare marketing performance across:
+
+- Age groups
+- Gender
+- Purchase intent
+- Income bracket
+- Retargeting status
+- Mobile
+- Desktop
+- Tablet
+
+This will help Veya identify audiences and devices associated with stronger marketing outcomes.
+
+#### 6. Time-Based Performance
+
+Time-based visuals will show:
+
+- Monthly revenue
+- Monthly conversions
+- Monthly advertising spend
+- Monthly ROAS
+- Quarterly performance
+- Day-of-week performance
+- Hour-of-day performance
+
+This will help identify seasonal patterns and periods of stronger marketing efficiency.
+
+### Key Findings Communicated to Stakeholders
+
+The dashboard will highlight several important findings from the analysis:
+
+- Google Ads generated the highest revenue and conversion volume.
+- TikTok achieved the highest platform ROAS and lowest CPA.
+- Facebook delivered strong revenue and marketing efficiency.
+- LinkedIn showed the weakest platform ROAS and highest CPA.
+- High purchase-intent audiences generated substantially stronger ROAS.
+- Retargeting campaigns outperformed non-retargeting campaigns in ROAS.
+- Desktop campaigns generated stronger returns than mobile and tablet campaigns.
+- Quarter 4 produced the strongest overall marketing performance.
+- Conversion-focused campaigns generated stronger returns than Brand Awareness campaigns.
+
+### Stakeholder Communication
+
+The final dashboard and findings will be presented to:
+
+**Marketing Manager**
+- Channel performance
+- Campaign optimization
+- Budget allocation
+
+**Performance Marketing Team**
+- CPA
+- ROAS
+- Conversion performance
+- Campaign efficiency
+
+**Digital Marketing Team**
+- Platform performance
+- Audience response
+- Funnel performance
+
+**Management Team**
+- Revenue
+- Profit
+- Marketing efficiency
+- Return on advertising investment
+
+The findings will be presented using clear visualizations and concise business insights rather than relying only on technical metrics.
+
+### Business Communication Goal
+
+The purpose of the SHARE stage is to transform analytical results into information that stakeholders can use to make marketing decisions.
+
+The dashboard will therefore focus on answering three key questions:
+
+1. What is performing well?
+2. What is underperforming?
+3. What should Veya do next?
+
+## 10. ACT
+
+### Turning Insights into Marketing Actions
+
+The purpose of the ACT stage is to convert the analytical findings into practical marketing actions.
+
+Based on the analysis, Veya can use its marketing budget more strategically by increasing investment in efficient channels and campaigns while reviewing areas with weaker performance.
+
+### 1. Optimize Channel Budget Allocation
+
+**TikTok**
+
+TikTok achieved the highest platform ROAS of 11.18 and the lowest CPA of $37.60.
+
+**Recommended action:**
+- Consider increasing investment in high-performing TikTok campaigns.
+- Identify the creative formats and audiences responsible for strong performance.
+- Monitor whether increased spending maintains the current efficiency.
+
+**Facebook**
+
+Facebook generated $70.79 million in revenue and achieved a ROAS of 10.39.
+
+**Recommended action:**
+- Maintain strong investment in Facebook.
+- Scale campaigns that combine high revenue with strong ROAS.
+- Continue testing different audiences and creative formats.
+
+**Google Ads**
+
+Google Ads generated the highest revenue and conversion volume but achieved a lower ROAS of 5.43.
+
+**Recommended action:**
+- Maintain Google Ads because of its strong revenue contribution.
+- Review high-spend campaigns for efficiency.
+- Optimize targeting and campaign objectives to improve ROAS.
+
+**LinkedIn**
+
+LinkedIn produced the lowest platform ROAS of 3.30 and the highest CPA of $131.11.
+
+**Recommended action:**
+- Review LinkedIn campaigns before increasing investment.
+- Identify campaigns with low conversion efficiency.
+- Consider reducing spending on consistently underperforming campaigns.
+- Retain campaigns that demonstrate strategic value.
+
+### 2. Prioritize High-Intent Audiences
+
+High purchase-intent audiences achieved a ROAS of 12.15 compared with 5.64 for medium-intent and 3.36 for low-intent audiences.
+
+**Recommended action:**
+
+Veya should prioritize high-intent audiences for performance-oriented campaigns while using lower-intent audiences primarily for awareness and consideration activities.
+
+### 3. Strengthen Retargeting
+
+Retargeting campaigns achieved a ROAS of 9.50 compared with 5.56 for non-retargeting campaigns.
+
+**Recommended action:**
+
+Veya should strengthen retargeting strategies for users who have previously interacted with its advertising or website.
+
+Retargeting campaigns should focus on users who demonstrate meaningful engagement but have not yet converted.
+
+### 4. Improve Mobile Performance
+
+Desktop campaigns generated a ROAS of 10.40, while mobile campaigns generated a ROAS of 3.86.
+
+**Recommended action:**
+
+Veya should investigate the mobile customer journey, including:
+
+- Landing-page experience
+- Page loading speed
+- Mobile navigation
+- Checkout experience
+- Mobile creative design
+- Call-to-action placement
+
+The objective should be to identify why mobile traffic produces lower returns.
+
+### 5. Increase Use of Effective Creative Formats
+
+Video advertising generated a CTR of 2.86% and ROAS of 7.27.
+
+**Recommended action:**
+
+Veya should continue testing video creatives while comparing them with other creative formats.
+
+Creative testing should consider:
+
+- Video length
+- Messaging
+- Call-to-action
+- Audience
+- Placement
+- Creative emotion
+
+### 6. Prioritize Conversion-Focused Campaigns
+
+Conversion campaigns achieved a ROAS of 8.01 compared with 4.05 for Brand Awareness campaigns.
+
+**Recommended action:**
+
+For campaigns with a direct revenue objective, Veya should prioritize conversion-focused campaigns.
+
+Brand Awareness campaigns should still be used when the objective is long-term brand building rather than immediate revenue generation.
+
+### 7. Use Seasonal Opportunities
+
+Quarter 4 achieved the strongest overall ROAS at 8.29.
+
+December 2024 generated $21.10 million in revenue with a ROAS of 7.94.
+
+December 2025 generated $16.54 million in revenue with a ROAS of 9.05.
+
+**Recommended action:**
+
+Veya should prepare its Q4 marketing strategy in advance by:
+
+- Increasing investment in proven campaigns
+- Preparing creative assets earlier
+- Prioritizing high-intent audiences
+- Strengthening retargeting
+- Monitoring campaign efficiency closely
+
+### 8. Review Underperforming Campaigns
+
+Several campaigns demonstrated weak ROAS, including campaigns with ROAS below 1.
+
+**Recommended action:**
+
+Before completely stopping a campaign, Veya should investigate:
+
+- Audience targeting
+- Creative quality
+- Ad placement
+- Campaign objective
+- Landing-page performance
+- Advertising spend
+- Conversion performance
+
+Campaigns that consistently underperform should have their budgets reduced or be paused.
+
+### 9. Establish a Continuous Optimization Process
+
+Marketing performance should not be evaluated only once.
+
+Veya should establish a recurring optimization process:
+
+**Measure → Compare → Identify → Test → Optimize → Re-measure**
+
+Campaign performance should be reviewed regularly using:
+
+- CTR
+- Conversion Rate
+- CPA
+- ROAS
+- Revenue
+- Profit
+
+### Recommended Priority Actions
+
+| Priority | Action | Reason |
+|---|---|---|
+| High | Scale efficient TikTok campaigns | Highest platform ROAS |
+| High | Prioritize high-intent audiences | ROAS of 12.15 |
+| High | Strengthen retargeting | ROAS of 9.50 |
+| High | Improve mobile performance | ROAS significantly below desktop |
+| Medium | Maintain strong Facebook campaigns | High revenue and ROAS |
+| Medium | Optimize Google Ads | Highest revenue but lower ROAS |
+| Medium | Expand effective video creatives | Strong CTR |
+| Medium | Prepare for Q4 | Strongest quarterly performance |
+| Low | Review LinkedIn investment | Lowest ROAS and highest CPA |
+
+### Expected Business Impact
+
+If these actions are implemented and continuously monitored, Veya can aim to:
+
+- Improve marketing efficiency
+- Increase return on advertising investment
+- Reduce inefficient advertising expenditure
+- Improve customer conversion
+- Strengthen high-performing channels
+- Improve mobile performance
+- Make more informed budget allocation decisions
+
+## 11. WRAP-UP
+
+### Project Summary
+
+This case study examined how marketing analytics can be used to evaluate Veya's digital advertising performance and support better marketing decisions.
+
+The analysis followed the complete marketing analytics process:
+
+**Ask → Prepare → Process → Analyze → Share → Act**
+
+The project began by identifying Veya's key business problem: understanding which digital marketing activities generate the strongest customer conversion, revenue, and return on advertising investment.
+
+The dataset was then prepared and processed by checking data quality, validating variables, removing the redundant `CPC` field, and preparing the data for analysis.
+
+### Major Findings
+
+The analysis produced several important findings:
+
+- Google Ads generated the highest revenue and conversion volume.
+- TikTok achieved the highest platform ROAS at 11.18.
+- TikTok also achieved the lowest platform CPA at $37.60.
+- Facebook generated strong revenue and achieved a ROAS of 10.39.
+- LinkedIn had the lowest platform ROAS at 3.30 and the highest CPA at $131.11.
+- High purchase-intent audiences achieved the strongest ROAS at 12.15.
+- Retargeting campaigns achieved a ROAS of 9.50 compared with 5.56 for non-retargeting campaigns.
+- Desktop campaigns achieved a ROAS of 10.40, considerably higher than mobile campaigns.
+- Video creatives achieved a CTR of 2.86%.
+- Conversion-focused campaigns achieved a ROAS of 8.01.
+- Quarter 4 was the strongest quarter, with a ROAS of 8.29.
+
+### Business Recommendations
+
+Based on these findings, Veya should:
+
+1. Increase investment in high-performing TikTok and Facebook campaigns while monitoring efficiency.
+2. Maintain Google Ads because of its strong revenue and conversion contribution, while improving its ROAS.
+3. Review and optimize underperforming LinkedIn campaigns.
+4. Prioritize high purchase-intent audiences for performance marketing.
+5. Strengthen retargeting campaigns.
+6. Investigate the reasons for weaker mobile performance.
+7. Continue testing video creatives and different creative approaches.
+8. Prioritize conversion-focused campaigns when the primary objective is revenue generation.
+9. Prepare campaigns and budgets in advance for strong seasonal periods such as Q4.
+10. Establish a continuous campaign monitoring and optimization process.
+
+### Overall Conclusion
+
+The analysis demonstrates that marketing performance should not be evaluated using a single metric.
+
+A platform generating the highest revenue is not necessarily the most efficient platform, while a campaign with a high ROAS may not generate enough revenue to justify large-scale investment.
+
+Therefore, Veya should evaluate marketing performance using a combination of:
+
+**Revenue + Conversions + CPA + ROAS + Profit + Customer Engagement**
+
+The findings provide Veya with a data-driven framework for improving campaign performance, optimizing advertising expenditure, and making more informed marketing decisions.
+
+### Final Business Impact
+
+The completed analysis transforms raw advertising campaign data into actionable business insights.
+
+Instead of asking only:
+
+**"How much did we spend?"**
+
+Veya can now ask:
+
+**"Where should we invest, which customers should we target, which campaigns should we optimize, and what marketing activities generate the strongest return?"**
+
+This demonstrates the value of marketing analytics in supporting evidence-based decision-making and improving digital marketing performance.
+
+### Portfolio Learning
+
+This project provided practical experience in:
+
+- Business problem definition
+- Marketing KPI development
+- Data cleaning and validation
+- SQL-based analysis
+- Exploratory data analysis
+- Campaign performance analysis
+- Customer funnel analysis
+- Marketing segmentation
+- Data visualization
+- Power BI dashboard development
+- Business storytelling
+- Data-driven marketing recommendations
+
+The project demonstrates how a Marketing Analyst can connect **business questions, data analysis, visualization, and strategic recommendations** to support better marketing decisions.
