@@ -3,11 +3,11 @@
 ## From Digital Reach to Customer Conversion
 
 **Project Type:** Marketing Analytics Case Study  
-**Company:** Veya  
-**Industry:** Beauty & Skincare E-commerce  
-**Market:** Pakistan  
-**Analyst Role:** Junior Marketing Analyst
-
+Company: Veya
+Industry: Digital Marketplace / E-commerce
+Market: Pakistan
+Business Model: Digital-first E-commerce
+Analyst Role: Junior Marketing Analyst
 ---
 
 ## Case Study Overview
@@ -31,7 +31,7 @@ Digital marketing has become an important part of how e-commerce businesses attr
 
 For a growing e-commerce brand, simply spending money on advertising is not enough. Marketing teams need to understand which channels and campaigns are generating meaningful results and where improvements can be made.
 
-Veya is facing this challenge as it expands its digital presence in the Pakistani beauty and skincare market.
+Veya is facing this challenge as it expands its digital presence in the Pakistani digital commerce market.
 
 Veya currently uses several digital advertising platforms to reach potential customers, including:
 
@@ -79,7 +79,7 @@ This question will guide the entire analysis.
 
 ## Business Situation
 
-Veya is a growing Pakistani beauty and skincare e-commerce brand that is expanding its digital presence and investing more heavily in online marketing.
+Veya is a growing Pakistani digital-first e-commerce marketplace that is expanding its online presence and investing more heavily in digital marketing.
 
 The company currently promotes its products through several digital advertising platforms, including Facebook, Google Ads, Instagram, LinkedIn, TikTok, and Twitter.
 
@@ -289,9 +289,9 @@ This collaboration ensures that the analysis is not limited to technical results
 
 ## Company Overview
 
-Veya is a fictional Pakistani beauty and skincare e-commerce brand created for this marketing analytics case study.
+Veya is a fictional Pakistani digital-first e-commerce marketplace created for this marketing analytics case study.
 
-The company operates as a digital-first, direct-to-consumer (D2C) business, selling beauty and skincare products through its online store and digital marketing channels.
+The company operates as a digital-first e-commerce business, connecting customers with a range of consumer products through its online marketplace and digital marketing channels.
 
 Veya was established in 2022 with the goal of making quality beauty and skincare products more accessible to young consumers in Pakistan.
 
@@ -299,46 +299,47 @@ From the beginning, the company focused on building its brand through digital pl
 
 ## Veya's Mission
 
-Veya's mission is to provide accessible beauty and skincare products while creating a convenient and engaging online shopping experience for Pakistani consumers.
+The company aims to build a trusted online marketplace by combining product variety, customer convenience, digital engagement, and data-driven marketing.
 
 The company aims to build a trusted beauty brand by combining quality products, digital customer engagement, and personalized marketing.
 
 ## Veya's Vision
 
-> **To become a trusted and digitally driven beauty and skincare brand for the next generation of Pakistani consumers.**
+> **To become a trusted digital commerce platform for the next generation of Pakistani consumers.**
 
 ## Products
 
-Veya offers a range of beauty and skincare products, including:
+Veya offers a diverge range of consumer products across multiple categories, such as
 
-- Facial cleansers
-- Moisturizers
-- Serums
-- Sunscreens
-- Face masks
-- Lip care products
-- Body care products
-- Beauty accessories
+- Consumer electronics
+- fashion & lifestyle products
+- Home & personal products
+- Fitness & wellness products
+- Digital accessories
+- Everyday consumer goods
+- Technology-related products
 
-The product portfolio is designed primarily for young consumers who discover and purchase beauty products through digital channels.
+The marketplace is designed to serve digitally active consumers who discover, compare, and purchase products through online channels.
 
 ## Target Market
 
-Veya primarily targets young consumers in Pakistan, particularly:
+Veya primarily targets digitally active consumers in Pakistan, particularly:
 
 - University students
 - Young professionals
 - Gen Z consumers
 - Young millennials
-- Digital-first shoppers
+- Online shoppers
+- Technology-oreinted consumers
+- Digital-first consumers
 
 The target customers are active on social media and frequently use digital platforms to discover products, compare alternatives, read reviews, and make purchasing decisions.
 
 ## Business Model
 
-Veya follows a **Direct-to-Consumer (D2C)** business model.
+Veya follows a **Digital-first e-commerce marketplace business model** business model.
 
-Customers discover Veya through digital marketing channels and can purchase products through the company's online store.
+Customers discover products through digital advertising channels, visit Veya's online marketplace, explore products, and complete purchases online.
 
 The customer journey can be represented as:
 
@@ -348,8 +349,7 @@ This makes digital marketing performance an important factor in Veya's overall b
 
 ## Digital Marketing Presence
 
-Veya uses multiple digital advertising platforms to reach its target customers and promote its beauty and skincare products.
-
+Veya uses multiple digital advertising platforms to reach its target customers and promote products, generate engagement, and drive online conversions.
 ### Facebook
 
 Facebook is used for paid advertising, product promotion, audience targeting, and customer engagement.
@@ -544,7 +544,7 @@ To answer the business questions defined in the ASK stage, a publicly available 
 
 The original dataset is the **Tech Advertising Campaigns Dataset**.
 
-For this project, the dataset will be used as the analytical foundation for the fictional Veya beauty and skincare e-commerce case study.
+For this project, the dataset will be used as the analytical foundation for the fictional Veya digital-first- e-commerce case study.
 
 ### Dataset Specifications
 
