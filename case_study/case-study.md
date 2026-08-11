@@ -12,7 +12,7 @@ Analyst Role: Junior Marketing Analyst
 
 ## Case Study Overview
 
-This case study follows the marketing analytics journey of Veya, a fictional Pakistani beauty and skincare e-commerce brand.
+This case study follows the marketing analytics journey of Veya, a fictional Pakistani digital-first e-commerce marketplace.
 
 The case study explores how digital marketing data can be used to understand campaign performance, customer conversion, marketing efficiency, and return on investment.
 
@@ -293,7 +293,7 @@ Veya is a fictional Pakistani digital-first e-commerce marketplace created for t
 
 The company operates as a digital-first e-commerce business, connecting customers with a range of consumer products through its online marketplace and digital marketing channels.
 
-Veya was established in 2022 with the goal of making quality beauty and skincare products more accessible to young consumers in Pakistan.
+Veya was established in 2022 with the goal of making a diverse range of quality consumer products more accessible to digitally active consumers in Pakistan.
 
 From the beginning, the company focused on building its brand through digital platforms rather than relying heavily on traditional retail.
 
@@ -301,7 +301,7 @@ From the beginning, the company focused on building its brand through digital pl
 
 The company aims to build a trusted online marketplace by combining product variety, customer convenience, digital engagement, and data-driven marketing.
 
-The company aims to build a trusted beauty brand by combining quality products, digital customer engagement, and personalized marketing.
+The company aims to build a trusted online marketplace by combining product variety, customer convenience, digital engagement, and data-driven marketing.
 
 ## Veya's Vision
 
@@ -309,7 +309,7 @@ The company aims to build a trusted beauty brand by combining quality products, 
 
 ## Products
 
-Veya offers a diverge range of consumer products across multiple categories, such as
+Veya offers a diverse range of consumer products across multiple categories, such as
 
 - Consumer electronics
 - fashion & lifestyle products
@@ -330,14 +330,14 @@ Veya primarily targets digitally active consumers in Pakistan, particularly:
 - Gen Z consumers
 - Young millennials
 - Online shoppers
-- Technology-oreinted consumers
+- Technology-oriented consumers
 - Digital-first consumers
 
 The target customers are active on social media and frequently use digital platforms to discover products, compare alternatives, read reviews, and make purchasing decisions.
 
 ## Business Model
 
-Veya follows a **Digital-first e-commerce marketplace business model** business model.
+Veya follows a **Digital-first e-commerce marketplace** business model.
 
 Customers discover products through digital advertising channels, visit Veya's online marketplace, explore products, and complete purchases online.
 
@@ -356,7 +356,7 @@ Facebook is used for paid advertising, product promotion, audience targeting, an
 
 ### Google Ads
 
-Google Ads helps Veya reach consumers who are actively searching for relevant beauty and skincare products.
+Google Ads helps Veya reach consumers who are actively searching for relevant products and services.
 
 ### Instagram
 
@@ -544,7 +544,7 @@ To answer the business questions defined in the ASK stage, a publicly available 
 
 The original dataset is the **Tech Advertising Campaigns Dataset**.
 
-For this project, the dataset will be used as the analytical foundation for the fictional Veya digital-first- e-commerce case study.
+For this project, the dataset will be used as the analytical foundation for the fictional Veya digital-first e-commerce case study.
 
 ### Dataset Specifications
 
@@ -562,7 +562,7 @@ For this project, the dataset will be used as the analytical foundation for the 
 
 The dataset is publicly available and was originally created for advertising campaign analysis.
 
-For this portfolio project, the dataset is adapted to represent Veya's digital marketing environment.
+For this portfolio project, the dataset is used as the analytical foundation for evaluating Veya's digital marketing environment.
 
 Veya is a fictional company. The analysis therefore does not represent real Veya customer or company data.
 
@@ -579,7 +579,6 @@ Campaign-level information allows performance to be compared across different ma
 Examples include:
 
 - Campaign ID
-- Campaign Name
 - Campaign Objective
 - Platform
 - Ad Placement
@@ -825,4 +824,100 @@ The Tech Advertising Campaigns Dataset is being used as the underlying data sour
 Veya is a fictional company created to provide a realistic business context for the analysis.
 
 The project will not present the original dataset as real Veya company data.
+
+## 7. PROCESS
+
+### Data Cleaning & Validation
+
+The dataset was processed to ensure that the data was clean, consistent, and suitable for marketing analysis.
+
+The following processing steps were performed:
+
+### 1. Dataset Structure Check
+- Verified the dataset dimensions.
+- Confirmed that the dataset contains 10,000 records.
+- Reviewed all available fields and their data types.
+
+### 2. Missing Value Check
+- Checked all columns for missing values.
+- No missing values were identified.
+- Result: 0 null values.
+
+### 3. Duplicate Check
+- Checked the dataset for duplicate records.
+- No duplicate rows were identified.
+- Result: 0 duplicate rows.
+
+### 4. Data Type Validation
+Data types were reviewed to ensure that each variable was appropriate for analysis.
+
+- Numerical variables were retained as numerical data types.
+- Categorical variables were retained as categorical/text data.
+- Boolean variables were validated as True/False fields.
+- Date information was reviewed for consistency.
+
+### 5. Date & Time Validation
+
+The temporal variables were checked for consistency and valid ranges.
+
+- No invalid or unparseable dates were identified.
+- `quarter` was checked against the quarter derived from `start_date`.
+- `day_of_week` was checked against the actual date.
+- `hour_of_day` values were within the valid 0–23 range.
+- `campaign_day` values were reviewed for valid campaign duration.
+
+The `start_date` field was retained because it supports monthly and time-based performance analysis.
+
+### 6. Redundant Variable Removal
+
+The dataset contained two CPC-related fields:
+
+- `actual_cpc`
+- `CPC`
+
+Both contained identical values.
+
+To avoid redundancy and maintain a cleaner analytical dataset, the duplicate `CPC` column was removed.
+
+`actual_cpc` was retained as the primary CPC measure.
+
+### 7. Identifier Handling
+
+`campaign_id` was retained in the raw dataset for record identification but excluded from performance calculations because it is a unique identifier rather than a meaningful analytical metric.
+
+### 8. KPI Validation
+
+The existing marketing performance metrics were reviewed against their underlying variables.
+
+The key metrics include:
+
+- CTR
+- Conversion Rate
+- CPA
+- ROAS
+- Profit
+
+The formulas used for validation are:
+
+**CTR = Clicks ÷ Impressions × 100**
+
+**Conversion Rate = Conversions ÷ Clicks × 100**
+
+**CPA = Ad Spend ÷ Conversions**
+
+**ROAS = Revenue ÷ Ad Spend**
+
+**Profit = Revenue − Ad Spend**
+
+These metrics will be used throughout the analysis to evaluate campaign and channel performance.
+
+### 9. Processed Dataset
+
+After completing the cleaning and validation steps, the processed dataset was saved separately from the original raw dataset.
+
+The raw dataset was preserved without modification, while the processed version was prepared for SQL analysis, visualization, and Power BI.
+
+### Processing Outcome
+
+The dataset is now ready for the **ANALYZE** stage, where campaign, channel, audience, device, and time-based performance will be investigated using marketing KPIs and comparative analysis.
 
