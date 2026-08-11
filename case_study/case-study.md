@@ -4,9 +4,13 @@
 
 **Project Type:** Marketing Analytics Case Study  
 Company: Veya
+
 Industry: Digital Marketplace / E-commerce
+
 Market: Pakistan
+
 Business Model: Digital-first E-commerce
+
 Analyst Role: Junior Marketing Analyst
 ---
 
