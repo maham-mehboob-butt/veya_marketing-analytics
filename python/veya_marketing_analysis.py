@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Path to your fresh dataset
-file_path = r"C:\Users\Lenovo\Downloads\tech_advertising_campaigns_processed.xlsx"
+file_path = "data/processed/tech_advertising_campaigns_processed.xlsx"
 
 df = pd.read_excel(file_path, engine="openpyxl")
 
