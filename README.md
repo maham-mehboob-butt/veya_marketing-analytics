@@ -65,7 +65,7 @@ veya_marketing-analytics/
 ├── SQL/
 │
 └── README.md
-
+```
 ## 🧹 Data Cleaning & Preparation
 
 The raw advertising campaign dataset was processed before performing the analysis.
@@ -264,7 +264,7 @@ Power BI Dashboard
    ↓
 Insights & Recommendations
 
-
+```
 ## 🛠️ Tools & Technologies
 
 - **Microsoft Excel** — Data analysis, KPI calculations, dashboards
