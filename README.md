@@ -66,7 +66,7 @@ veya_marketing-analytics/
 │
 └── README.md
 
-
+```
 ## 🧹 Data Cleaning & Preparation
 
 The raw advertising campaign dataset was processed before performing the analysis.
@@ -298,4 +298,5 @@ The combination of Excel, SQL, Python, and Power BI provides multiple analytical
 
 **Maham Mehboob**  
 Marketing Analytics Portfolio Project
+```
 
