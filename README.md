@@ -1,12 +1,12 @@
 # Veya Marketing Analytics
 
-## 📊 End-to-End Marketing Campaign Analysis
+📊 **End-to-End Marketing Campaign Analysis**
 
 This project is an end-to-end marketing analytics case study focused on analyzing technology advertising campaign data and turning raw campaign data into actionable business insights.
 
 The project covers the complete analytics workflow:
 
-**Raw Data → Data Cleaning → Processed Data → Excel → SQL → Python → Power BI → Business Insights**
+`Raw Data` → `Data Cleaning` → `Processed Data` → `Excel` → `SQL` → `Python` → `Power BI` → `Business Insights`
 
 ---
 
@@ -15,33 +15,32 @@ The project covers the complete analytics workflow:
 The main objective of this project is to evaluate advertising campaign performance and identify the factors that influence revenue, conversions, profit, ROAS, and overall marketing effectiveness.
 
 The analysis focuses on questions such as:
-
-- Which platforms perform best?
-- Which campaigns generate the highest profit?
-- Which campaigns achieve the best ROAS?
-- Which audience segments perform best?
-- How do devices and operating systems affect performance?
-- Does retargeting improve conversions?
-- Which creative formats perform best?
-- Which ad placements generate the most revenue?
-- Which days and hours show stronger conversion performance?
-- Which areas should marketers prioritize for optimization?
+* Which platforms perform best?
+* Which campaigns generate the highest profit?
+* Which campaigns achieve the best ROAS?
+* Which audience segments perform best?
+* How do devices and operating systems affect performance?
+* Does retargeting improve conversions?
+* Which creative formats perform best?
+* Which ad placements generate the most revenue?
+* Which days and hours show stronger conversion performance?
+* Which areas should marketers prioritize for optimization?
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 veya_marketing-analytics/
 │
-├── case-study/
+├── 01_case_study/
+│   └── case_study.md
 │
-├── data/
+├── 02_data/
 │   ├── raw/
-│   │
 │   └── processed/
 │
-├── Excel_Analysis/
+├── 03_Excel_Analysis/
 │   ├── 01_dashboard_kpis_and_platform.jpeg
 │   ├── 02_dashboard_campaign_and_audience.jpeg
 │   ├── 03_dashboard_device_and_trends.jpeg
@@ -52,20 +51,22 @@ veya_marketing-analytics/
 │   ├── 08_summary_insights_part1.jpeg
 │   └── 09_summary_insights_part2.jpeg
 │
-├── Power Bi/
+├── 04_python/
+│   ├── veya_marketing_analysis.ipynb
+│   └── veya_marketing_analysis.py
+│
+├── 05_SQL/
+│   └── veya_marketing_analysis.sql
+│
+├── 06_Power_Bi/
 │   ├── 01_executive_overview.jpeg
 │   ├── 02_platform_campaign_performance.jpeg
 │   ├── 03_audience_device_analysis.jpeg
 │   └── 04_time_creative_placement_analysis.jpeg
 │
-├── Python/
-│   ├── veya_marketing_analysis.ipynb
-│   └── veya_marketing_analysis.py
-│
-├── SQL/
-│
 └── README.md
-```
+
+
 ## 🧹 Data Cleaning & Preparation
 
 The raw advertising campaign dataset was processed before performing the analysis.
@@ -77,8 +78,8 @@ The data preparation included:
 - Checking for blank values
 - Standardizing text values
 - Standardizing operating system names:
-  - Replacing `iOS` with `IOS`
-  - Replacing `macOS` with `MacOS`
+- Replacing `iOS` with `IOS`
+- Replacing `macOS` with `MacOS`
 - Checking the dataset for consistency
 - Creating the final processed dataset for analysis
 
@@ -187,32 +188,32 @@ The dashboard contains four main pages:
 ## 📸 Power BI Dashboard Screenshots
 
 ### Executive Overview
-![Executive Overview](Power%20Bi/01_executive_overview.jpeg)
+![Executive Overview](./Power%20Bi/01_executive_overview.jpeg)
 
 ### Platform & Campaign Performance
-![Platform & Campaign Performance](Power%20Bi/02_platform_campaign_performance.jpeg)
+![Platform & Campaign Performance](./Power%20Bi/02_platform_campaign_performance.jpeg)
 
 ### Audience & Device Analysis
-![Audience & Device Analysis](Power%20Bi/03_audience_device_analysis.jpeg)
+![Audience & Device Analysis](./Power%20Bi/03_audience_device_analysis.jpeg)
 
 ### Time, Creative & Placement Analysis
-![Time, Creative & Placement Analysis](Power%20Bi/04_time_creative_placement_analysis.jpeg)
+![Time, Creative & Placement Analysis](./Power%20Bi/04_time_creative_placement_analysis.jpeg)
 
 ---
 
-## 📈 Excel Analysis Screenshots
+## 📸 Excel Analysis Screenshots
 
 ### Dashboard — KPIs & Platform
-![Dashboard — KPIs & Platform](Excel_Analysis/01_dashboard_kpis_and_platform.jpeg)
+![Dashboard — KPIs & Platform](./Excel_Analysis/01_dashboard_kpis_and_platform.jpeg)
 
 ### Dashboard — Campaign & Audience
-![Dashboard — Campaign & Audience](Excel_Analysis/02_dashboard_campaign_and_audience.jpeg)
+![Dashboard — Campaign & Audience](./Excel_Analysis/02_dashboard_campaign_and_audience.jpeg)
 
 ### Dashboard — Device & Trends
-![Dashboard — Device & Trends](Excel_Analysis/03_dashboard_device_and_trends.jpeg)
+![Dashboard — Device & Trends](./Excel_Analysis/03_dashboard_device_and_trends.jpeg)
 
 ### Dashboard — Recommendations
-![Dashboard — Recommendations](Excel_Analysis/04_dashboard_recommendations.jpeg)
+![Dashboard — Recommendations](./Excel_Analysis/04_dashboard_recommendations.jpeg)
 
 
 ## 💡 Key Analytical Areas
