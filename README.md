@@ -188,32 +188,32 @@ The dashboard contains four main pages:
 ## 📸 Power BI Dashboard Screenshots
 
 ### Executive Overview
-![Executive Overview](./Power%20Bi/01_executive_overview.jpeg)
+![Executive Overview](./06_power_bi/01_executive_overview.jpeg)
 
 ### Platform & Campaign Performance
-![Platform & Campaign Performance](./Power%20Bi/02_platform_campaign_performance.jpeg)
+![Platform & Campaign Performance](./06_power_bi/02_platform_campaign_performance.jpeg)
 
 ### Audience & Device Analysis
-![Audience & Device Analysis](./Power%20Bi/03_audience_device_analysis.jpeg)
+![Audience & Device Analysis](./06_power_bi/03_audience_device_analysis.jpeg)
 
 ### Time, Creative & Placement Analysis
-![Time, Creative & Placement Analysis](./Power%20Bi/04_time_creative_placement_analysis.jpeg)
+![Time, Creative & Placement Analysis](./06_power_bi/04_time_creative_placement_analysis.jpeg)
 
 ---
 
 ## 📸 Excel Analysis Screenshots
 
 ### Dashboard — KPIs & Platform
-![Dashboard — KPIs & Platform](./Excel_Analysis/01_dashboard_kpis_and_platform.jpeg)
+![Dashboard — KPIs & Platform](./03_excel_analysis/01_dashboard_kpis_and_platform.jpeg)
 
 ### Dashboard — Campaign & Audience
-![Dashboard — Campaign & Audience](./Excel_Analysis/02_dashboard_campaign_and_audience.jpeg)
+![Dashboard — Campaign & Audience](./03_excel_analysis/02_dashboard_campaign_and_audience.jpeg)
 
 ### Dashboard — Device & Trends
-![Dashboard — Device & Trends](./Excel_Analysis/03_dashboard_device_and_trends.jpeg)
+![Dashboard — Device & Trends](./03_excel_analysis/03_dashboard_device_and_trends.jpeg)
 
 ### Dashboard — Recommendations
-![Dashboard — Recommendations](./Excel_Analysis/04_dashboard_recommendations.jpeg)
+![Dashboard — Recommendations](./03_excel_analysis/04_dashboard_recommendations.jpeg)
 
 
 ## 💡 Key Analytical Areas
